@@ -15,10 +15,10 @@ def findlen():
             videos =soup.find_all(class_='more-menu-wrapper')
 
             timestamps =['00:'+video.find(class_='timestamp').get_text() for video in videos]
-            print(timestamps)
+            #print(timestamps)
             timeinsec =[int(t.split(':')[-3])*3600+int(t.split(':')[-2])*60+int(t.split(':')[-1])   for t in timestamps]
-            print(len(timeinsec))
-            print(sum(timeinsec))
+            #print(len(timeinsec))
+            #print(sum(timeinsec))
             total_Time =str(datetime.timedelta(seconds=sum(timeinsec)))
 
             if total_Time == '0:00:00':
