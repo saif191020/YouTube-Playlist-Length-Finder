@@ -39,4 +39,4 @@ Enter the URL of Youtube Playlist and click Go! (As simple as that!)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
