@@ -31,7 +31,7 @@ def findlen():
 
 root =Tk()
 root.title('Playlist Length Finder')
-
+root.iconbitmap(r'Images/ytlogo.ico')
 contentFrame =Frame(root)
 
 result =Label(root,text='Total Length : --:--:--')
