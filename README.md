@@ -1,4 +1,4 @@
-# YouTube-Playlist-Length-Finder
+# YouTube Playlist Length Finder
 
 Calculate the total length of a youtube playlist.
 
